@@ -40,7 +40,8 @@ This repository provides a modified version of RFdiffusion with MPS (Metal Perfo
    ```
 3. **Install PyTorch with MPS support**
    ```bash
-   conda install 'pytorch==2.3.0' torchvision torchaudio -c pytorch
+   conda install 'pytorch==2.2.1' torchvision torchaudio -c pytorch
+   pip install torchdata==0.7.1
    ```
 4. **Install additional dependencies**
    ```bash
